@@ -188,7 +188,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Diploma in Computing",
-    image: "img/#",
+    image: "#",
     imageAlt: "Diploma in Computing - Image not available",
     link: "",
     institution: "Instituto Tecnológico de Estudios Informaticos",
@@ -203,7 +203,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: TRAINING,
     name: "Introduction to Software Product Management",
-    image: "img/https://leovago.files.wordpress.com/2019/08/coursera-introduction-to-software-product-management-1.png",
+    image: "https://leovago.files.wordpress.com/2019/08/coursera-introduction-to-software-product-management-1.png",
     imageAlt: "Introduction to Software Product Management Course Certificate",
     link: "https://coursera.org/verify/8JR8HPLN6KYG",
     institution: "University of Alberta",
@@ -218,7 +218,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: TRAINING,
     name: "Software Processes and Agile Practices",
-    image: "img/https://leovago.files.wordpress.com/2019/08/coursera-software-processes-and-agile-practices-1.png",
+    image: "https://leovago.files.wordpress.com/2019/08/coursera-software-processes-and-agile-practices-1.png",
     imageAlt: "Software Processes and Agile Practices Course Certificate",
     link: "https://coursera.org/verify/YAWT3KJNT5YQ",
     institution: "University of Alberta",
@@ -233,7 +233,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "",
-    image: "img/",
+    image: "",
     imageAlt: "",
     link: "",
     institution: "",
@@ -248,7 +248,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "",
-    image: "img/",
+    image: "",
     imageAlt: "",
     link: "",
     institution: "",
@@ -263,7 +263,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "",
-    image: "img/",
+    image: "",
     imageAlt: "",
     link: "",
     institution: "",
@@ -278,7 +278,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "",
-    image: "img/",
+    image: "",
     imageAlt: "",
     link: "",
     institution: "",
@@ -293,7 +293,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "",
-    image: "img/",
+    image: ""
     imageAlt: "",
     link: "",
     institution: "",
@@ -308,7 +308,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: TRAINING,
     name: "",
-    image: "img/",
+    image: ""
     imageAlt: "",
     link: "",
     institution: "",
