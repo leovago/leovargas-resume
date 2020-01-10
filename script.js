@@ -8,7 +8,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "Scrum Master Accredited Certification&trade;",
-    image: "img/scrum-master-cert.webp",
+    image: "scrum-master-cert.webp",
     imageAlt: "Scrum Master Accredited Certification Diploma",
     link: "https://www.scrum-institute.org/International_Scrum_Institute_Certificate_Validation_Tool.php?AUTHORIZED_CERTIFICATE_ID=41464305568486&submitted=y",
     institution: "International Scrum Institute",
@@ -23,7 +23,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "Responsive Web Design Certification",
-    image: "img/resp-web-des-cert.webp",
+    image: "resp-web-des-cert.webp",
     imageAlt: "freeCodeCamp Web Design Certification Diploma",
     link: "https://www.freecodecamp.org/certification/fccd950f534-84e4-4c60-9aae-b49ea26c70da/responsive-web-design",
     institution: "freeCodeCamp",
@@ -38,7 +38,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "JavaScript Algorithms and Data Structures Certification",
-    image: "img/js-alg-n-str-cert.webp",
+    image: "js-alg-n-str-cert.webp",
     imageAlt: "freeCodeCamp JavaScript Algorithms and Data Structures Certification Diploma",
     link: "https://www.freecodecamp.org/certification/fccd950f534-84e4-4c60-9aae-b49ea26c70da/javascript-algorithms-and-data-structures",
     institution: "freeCodeCamp",
@@ -53,7 +53,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "Front End Libraries Certification",
-    image: "img/front-end-libs-cert.webp",
+    image: "front-end-libs-cert.webp",
     imageAlt: "freeCodeCamp Front End Libraries Certification Diploma",
     link: "https://www.freecodecamp.org/certification/fccd950f534-84e4-4c60-9aae-b49ea26c70da/front-end-libraries",
     institution: "freeCodeCamp",
@@ -68,7 +68,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "Data Visualization Certification",
-    image: "img/data-vis-cert.webp",
+    image: "data-vis-cert.webp",
     imageAlt: "freeCodeCamp Data Visualization Certification Diploma",
     link: "https://www.freecodecamp.org/certification/fccd950f534-84e4-4c60-9aae-b49ea26c70da/data-visualization",
     institution: "freeCodeCamp",
@@ -83,7 +83,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "APIs and Microservices Certification",
-    image: "img/apis-n-msvcs-cert.webp",
+    image: "apis-n-msvcs-cert.webp",
     imageAlt: "freeCodeCamp APIs and Microservices Certification Diploma",
     link: "https://www.freecodecamp.org/certification/fccd950f534-84e4-4c60-9aae-b49ea26c70da/apis-and-microservices",
     institution: "freeCodeCamp",
@@ -98,7 +98,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Professional Technician in Instrumentation and Control",
-    image: "img/pt-inst-n-ctrl-dip.webp",
+    image: "pt-inst-n-ctrl-dip.webp",
     imageAlt: "Professional Technician in Instrumentation and Control Diploma",
     link: "",
     institution: "Colegio Nacional de Educación Profesional Técnica",
@@ -113,7 +113,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Diploma in Programming",
-    image: "img/dp-prog.webp",
+    image: "dp-prog.webp",
     imageAlt: "Diploma in Programming",
     link: "",
     institution: "Instituto Technológico de Estudios Superiores de Monterrey",
@@ -128,7 +128,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Diploma in Project Management (PMI)",
-    image: "img/dp-pm.webp",
+    image: "dp-pm.webp",
     imageAlt: "Diploma in Project Management",
     link: "",
     institution: "Instituto Tecnológico de Estudios Superiores de Occidente",
@@ -143,7 +143,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Diploma in High-Performance Teams",
-    image: "img/dp-high-perf-teams.webp",
+    image: "dp-high-perf-teams.webp",
     imageAlt: "Diploma in High-Performance Teams",
     link: "",
     institution: "Instituto Tecnológico de Estudios Superiores de Occidente",
@@ -158,7 +158,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Diploma in Software Development Processes",
-    image: "img/dp-sw-dev-processes.webp",
+    image: "dp-sw-dev-processes.webp",
     imageAlt: "Diploma in Software Development Processes",
     link: "",
     institution: "Instituto Tecnológico de Estudios Superiores de Occidente",
@@ -173,7 +173,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: EDUCATION,
     name: "Diploma in Windows and Linux Networking",
-    image: "img/dp-win-n-lnx-ntwks.webp",
+    image: "dp-win-n-lnx-ntwks.webp",
     imageAlt: "Diploma in Windows and Linux Networking",
     link: "",
     institution: "Colegio Nacional de Educación Profesional Técnica",
