@@ -293,7 +293,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: CERTIFICATION,
     name: "",
-    image: ""
+    image: "",
     imageAlt: "",
     link: "",
     institution: "",
@@ -308,7 +308,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: TRAINING,
     name: "",
-    image: ""
+    image: "",
     imageAlt: "",
     link: "",
     institution: "",
