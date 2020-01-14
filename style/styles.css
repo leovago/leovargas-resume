@@ -44,7 +44,7 @@ body {
   margin: 0;
 }
 
-.magno-logo {
+/*.magno-logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,7 +113,7 @@ body {
   transform: rotate(9deg);
   font-family: "Fredoka One", "Open sans", sans-serif;
 }
-
+*/
 
 .container {
   display: flex;
@@ -463,7 +463,7 @@ input:focus {
 }
 
 .logo-box > img {
-  max-width: 95%;
+  max-width: 90%;
   display: block;
   height: auto;
 }
@@ -543,7 +543,7 @@ input:focus {
   border-radius: 5px;
   filter: grayscale(95%);
   width: 300px;
-  height: auto;
+  height: 225px;
   transform: scale(0.8);
 }
 
