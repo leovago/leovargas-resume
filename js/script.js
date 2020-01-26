@@ -355,7 +355,7 @@ $(document).ready(function (){
   function loadCertificationsAndEducationImages(obj){
     if (obj.image != "#" && obj.image != "") {
       $("#diplomas").append(
-        `<img src="${obj.image}" alt="${obj.imageAlt}" />`
+        `<img src="${obj.image}" alt="${obj.imageAlt}" loading="lazy"/>`
       );
     }
   }
