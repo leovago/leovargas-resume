@@ -11,8 +11,10 @@
     <link rel="canonical" href="https://leovargas.netlify.com/"/>
     <!-- <link rel="canonical" href="http://localhost/LeoVargasResume/"> -->
     <title>Leo Vargas Resume</title>
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/a4e81a8074.js"></script>
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Apple Icon -->
+    <link rel="apple-touch-icon" href="img/icons-192.png">
     <!--  Styles  -->
     <link rel="stylesheet" href="style/initial-load.css" type="text/css" >
     <!--
@@ -26,8 +28,16 @@ Merriweather Sans
 Sorkin Type (8 styles)
     -->
 
+    <!-- ToDo -->
     <!-- 
- -->
+      Change fontawesome icons for image sprites for faster loading
+      Serve static assets with an efficient cache policy: images for menu, companies, portfolio and education
+      Create script to include portfolio with images, description and software stack
+      Convert portfolio images to webp
+      Enable text compression js, css
+      Fix time line order for intermediate window size 
+      Create PWA Icons
+    -->
   </head>
   <body>
     <main><section id="welcome-section" class="container">
@@ -272,6 +282,8 @@ Sorkin Type (8 styles)
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap"
           rel="stylesheet"
           type="text/css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a4e81a8074.js"></script>
 
   
   </body>
