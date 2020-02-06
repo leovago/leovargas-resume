@@ -216,7 +216,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: TRAINING,
     name: "Introduction to Software Product Management",
-    image: "https://leovago.files.wordpress.com/2019/08/coursera-introduction-to-software-product-management-1.png",
+    image: "https://www.coursera.org/account/accomplishments/certificate/8JR8HPLN6KYG",
     imageSize: [300, 225],
     imageAlt: "Introduction to Software Product Management Course Certificate",
     link: "https://coursera.org/verify/8JR8HPLN6KYG",
@@ -232,7 +232,7 @@ const LIFE_LONG_LEARNING = [
   {
     type: TRAINING,
     name: "Software Processes and Agile Practices",
-    image: "https://leovago.files.wordpress.com/2019/08/coursera-software-processes-and-agile-practices-1.png",
+    image: "https://www.coursera.org/account/accomplishments/certificate/YAWT3KJNT5YQ",
     imageSize: [300, 225],
     imageAlt: "Software Processes and Agile Practices Course Certificate",
     link: "https://coursera.org/verify/YAWT3KJNT5YQ",
@@ -246,68 +246,68 @@ const LIFE_LONG_LEARNING = [
     hours: 9
   },
   {
-    type: CERTIFICATION,
-    name: "",
-    image: "",
-    imageAlt: "",
+    type: TRAINING,
+    name: "HTML Fundamentals",
+    image: "img/sl-html.jpg",
+    imageAlt: "SoloLearn Certificate on HTML Fundamentals",
     imageSize: [300, 225],
-    link: "",
-    institution: "",
-    certificationId: "",
-    periodType: YEARS,
-    startYear: 2019,
-    endYear: 0,
+    link: "https://www.sololearn.com/Certificate/1014-11393294/pdf/",
+    institution: "SoloLearn",
+    certificationId: "1014-11393294",
+    periodType: HOURS,
+    startYear: 0,
+    endYear: 2020,
     startMonth: 0,
-    endMonth: 0,
-    hours: 300
+    endMonth: 1,
+    hours: 0
   },
   {
-    type: CERTIFICATION,
-    name: "",
-    image: "",
-    imageAlt: "",
+    type: TRAINING,
+    name: "CSS Fundamentals",
+    image: "img/sl-css.jpg",
+    imageAlt: "SoloLearn Certificate on CSS Fundamentals",
     imageSize: [300, 225],
-    link: "",
-    institution: "",
-    certificationId: "",
-    periodType: YEARS,
-    startYear: 2019,
-    endYear: 0,
+    link: "https://www.sololearn.com/Certificate/1023-11393294/pdf/",
+    institution: "SoloLearn",
+    certificationId: "1023-11393294",
+    periodType: HOURS,
+    startYear: 0,
+    endYear: 2020,
     startMonth: 0,
-    endMonth: 0,
-    hours: 300
+    endMonth: 1,
+    hours: 0
   },
   {
-    type: CERTIFICATION,
-    name: "",
-    image: "",
-    imageAlt: "",
+    type: TRAINING,
+    name: "JavaScript",
+    image: "img/sl-js.jpg",
+    imageAlt: "SoloLearn Certificate on JavaScript",
     imageSize: [300, 225],
-    link: "",
-    institution: "",
-    certificationId: "",
-    periodType: YEARS,
-    startYear: 2019,
-    endYear: 0,
+    link: "https://www.sololearn.com/Certificate/1024-11393294/pdf/",
+    institution: "SoloLearn",
+    certificationId: "1024-11393294",
+    periodType: HOURS,
+    startYear: 0,
+    endYear: 2020,
     startMonth: 0,
-    endMonth: 0,
-    hours: 300
+    endMonth: 1,
+    hours: 0
   },
   {
-    type: CERTIFICATION,
-    name: "",
-    image: "",
-    imageAlt: "",
+    type: TRAINING,
+    name: "Phyton 3",
+    image: "img/sl-phyton3.jpg",
+    imageAlt: "SoloLearn Certificate on Phyton 3",
     imageSize: [300, 225],
-    link: "",
-    institution: "",
-    certificationId: "",
-    periodType: YEARS,
-    startYear: 2019,
-    endYear: 0,
+    link: "https://www.sololearn.com/Certificate/1073-11393294/pdf/",
+    institution: "SoloLearn",
+    certificationId: "1073-11393294",
+    periodType: HOURS,
+    startYear: 0,
+    endYear: 2020,
     startMonth: 0,
-    endMonth: 0,
-    hours: 300
+    endMonth: 2,
+    hours: 0
   },
   {
     type: CERTIFICATION,
@@ -402,5 +402,15 @@ $(document).ready(function (){
       <p>${period}</p>
     </div>`);
   }
+
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+            navigator.serviceWorker
+                .register("./serviceWorker.js")
+                .then(res => console.log("service worker registered"))
+                .catch(err => console.log("service worker not registered", err))
+        })
+    }
+
   
 });
