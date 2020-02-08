@@ -1,6 +1,6 @@
 {
-  "short_name": "LeoVargas",
-  "name": "LeoVargas Resume",
+  "short_name": "LeoVargas Resume",
+  "name": "LeoVargas Full Stack Developer / Project/Program Manager / Engineering Manager",
   "description": "Leo Vargas is a seasoned Project/Program Manager and Engineering Managger transisioning to Full Stack Development",
   "icons": [
     {
@@ -15,7 +15,7 @@
     }
   ],
   "start_url": "index.html",
-  "background_color": "#3367D6",
+  "background_color": "#f0f0f0",
   "display": "standalone",
   "scope": ".",
   "theme_color": "#113F67"
